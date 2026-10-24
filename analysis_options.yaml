@@ -1,0 +1,20 @@
+# Análisis estático: lints recomendados de Flutter más reglas extra del proyecto.
+# Ejecutar con `flutter analyze`.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - ios/**
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    require_trailing_commas: true
+    always_declare_return_types: true
+    prefer_final_locals: true
