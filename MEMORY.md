@@ -5,7 +5,7 @@
 - Documentación SDD lista: `docs/constitution.md` y `docs/ESPECIFICACION.md` en **borrador** (pendientes de aprobación), skill `sdd`, comandos `/sdd-*` y reglas en `.claude/rules/`.
 - No hay specs creadas. Siguiente paso: aprobar la constitución y la especificación, y después `/sdd-spec 001-acceso-google …`.
 - Supabase: **el proyecto y el cliente OAuth de Google aún no existen**. `env.json` (ignorado por git) tendrá `SUPABASE_URL` y `SUPABASE_PUBLISHABLE_KEY`; plantilla en `env.example.json`.
-- Git inicializado, sin commits.
+- Git: rama `main` en https://github.com/juliangg910316/MeuBolso (público). Primer commit `74abd1f` (2026-10-24).
 
 ## Decisiones (y por qué)
 - Encargo de un cliente de Brasil: interfaz en pt-BR y es (ARB), moneda solo R$. Docs y commits en español.
